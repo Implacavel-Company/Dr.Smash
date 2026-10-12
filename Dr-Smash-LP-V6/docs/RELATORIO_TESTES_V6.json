@@ -1,0 +1,184 @@
+{
+  "project": "Dr-Smash-LP-V6",
+  "summary": {
+    "passed": 25,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "test": "JavaScript syntax: script.js",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "test": "JavaScript syntax: EDITE-AQUI.js",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "test": "Config can be evaluated",
+      "passed": true,
+      "detail": "{\"count\":12,\"ids\":[\"box-rock\",\"smash-rock\",\"pcq\",\"cheddar-melt\",\"combo-rock\",\"churrasco\",\"fritas\",\"milkshake\",\"dr-crispy\",\"coca-350\",\"smash-picante\",\"smash-cogumelo\"],\"images\":[\"assets/products/box-ro"
+    },
+    {
+      "test": "12 product cards configured",
+      "passed": true,
+      "detail": "12"
+    },
+    {
+      "test": "Unique product IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Unique image paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "All product image paths exist",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "test": "All product images decode",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "test": "assets/hero-frames: expected frame count",
+      "passed": true,
+      "detail": "144"
+    },
+    {
+      "test": "assets/hero-frames: image integrity",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "test": "assets/fire-frames: expected frame count",
+      "passed": true,
+      "detail": "17"
+    },
+    {
+      "test": "assets/fire-frames: image integrity",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "test": "Removed film counter from HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Removed explore prompt from HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Top progress-bar element removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Top progress artifact hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full-bleed scroll canvas kept",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Canvas frame blend layer configured",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Scroll still maps to frame index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Audio asset available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fire overlay assets available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "HTML parser has main content",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Hero sticky and marquee close structurally",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exactly one product grid container",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "HTTP smoke test: 11 local resources return 200",
+      "passed": true,
+      "detail": "index.html, CSS, JS/config, first/last hero frame, first fire frame, ambience MP3 and three product images"
+    }
+  ],
+  "product_image_dimensions": {
+    "assets/products/box-rock.webp": [
+      1400,
+      933
+    ],
+    "assets/products/ultra-smash-rock.webp": [
+      1400,
+      933
+    ],
+    "assets/products/smash-pcq.webp": [
+      1400,
+      933
+    ],
+    "assets/products/cheddar-melt.webp": [
+      1400,
+      1167
+    ],
+    "assets/products/combo-rock.webp": [
+      1400,
+      933
+    ],
+    "assets/products/smash-churrasco.webp": [
+      1400,
+      1167
+    ],
+    "assets/products/fritas-cheddar-bacon.webp": [
+      1400,
+      787
+    ],
+    "assets/products/milkshake.webp": [
+      700,
+      1050
+    ],
+    "assets/products/dr-crispy.webp": [
+      1400,
+      1167
+    ],
+    "assets/products/coca-350.webp": [
+      1400,
+      1167
+    ],
+    "assets/products/smash-picante.webp": [
+      1400,
+      1167
+    ],
+    "assets/products/smash-cogumelo.webp": [
+      1400,
+      1167
+    ]
+  }
+}

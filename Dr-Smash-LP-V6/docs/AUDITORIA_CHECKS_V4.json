@@ -1,0 +1,206 @@
+{
+  "project": "Dr. Smash! Landing Page V4",
+  "created_for": "post-edit audit",
+  "checks": [
+    {
+      "test": "JavaScript syntax: script.js",
+      "status": "PASS",
+      "detail": "node --check exit 0"
+    },
+    {
+      "test": "JavaScript syntax: EDITE-AQUI.js",
+      "status": "PASS",
+      "detail": "node --check exit 0"
+    },
+    {
+      "test": "HTML parser + IDs without duplicates",
+      "status": "PASS",
+      "detail": "328 start tags, 57 IDs, duplicates={}"
+    },
+    {
+      "test": "Exactly one H1",
+      "status": "PASS",
+      "detail": "1 H1"
+    },
+    {
+      "test": "Hero scroll scene precedes marquee and brand headline",
+      "status": "PASS"
+    },
+    {
+      "test": "Canvas hero is present and uses full-bleed implementation",
+      "status": "PASS"
+    },
+    {
+      "test": "Headline relocated below marquee",
+      "status": "PASS"
+    },
+    {
+      "test": "Manual address disclosure starts hidden",
+      "status": "PASS"
+    },
+    {
+      "test": "Manual-address opener and automatic fallback are wired",
+      "status": "PASS"
+    },
+    {
+      "test": "Final CTA and footer unchanged from V3",
+      "status": "PASS",
+      "detail": "Exact string comparison from final CTA to document end"
+    },
+    {
+      "test": "All HTML data-config references exist",
+      "status": "PASS",
+      "detail": "54 unique keys, missing=[]"
+    },
+    {
+      "test": "All data-link references are configured",
+      "status": "PASS",
+      "detail": "3 unique keys, missing=[]"
+    },
+    {
+      "test": "HTML local files and internal anchors resolve",
+      "status": "PASS",
+      "detail": "[]; #social-link-pending is an intentional disabled-link placeholder"
+    },
+    {
+      "test": "CSS parse has no syntax errors",
+      "status": "PASS",
+      "detail": "419 top-level rules, errors=[]"
+    },
+    {
+      "test": "Catalog contains 10 products with unique image paths",
+      "status": "PASS",
+      "detail": "10 items, 10 unique paths"
+    },
+    {
+      "test": "All product images load and have unique file hashes",
+      "status": "PASS",
+      "detail": "10 different SHA-256 values; invalid=[]"
+    },
+    {
+      "test": "hero-frames: number, dimensions and decoder integrity",
+      "status": "PASS",
+      "detail": "144/144, size=(1080, 1920), invalid=[]"
+    },
+    {
+      "test": "fire-frames: number, dimensions and decoder integrity",
+      "status": "PASS",
+      "detail": "17/17, size=(1920, 1080), invalid=[]"
+    },
+    {
+      "test": "MP3 matches the uploaded source byte-for-byte",
+      "status": "PASS",
+      "detail": "SHA-256 comparison"
+    },
+    {
+      "test": "MP3 duration can be decoded",
+      "status": "PASS",
+      "detail": "64.056 seconds"
+    },
+    {
+      "test": "Video metadata and full decode: Dr-Smash-Hamburger-Hero-16x9.mp4",
+      "status": "PASS",
+      "detail": "{\"width\": 1920, \"height\": 1080, \"frames\": \"144\", \"fps\": \"30/1\", \"duration_seconds\": 4.8, \"decode\": \"PASS\"}"
+    },
+    {
+      "test": "Video metadata and full decode: Dr-Smash-Hamburger-Hero-Vertical.mp4",
+      "status": "PASS",
+      "detail": "{\"width\": 1080, \"height\": 1920, \"frames\": \"144\", \"fps\": \"30/1\", \"duration_seconds\": 4.8, \"decode\": \"PASS\"}"
+    },
+    {
+      "test": "Video metadata and full decode: Dr-Smash-Fire-Loop.mp4",
+      "status": "PASS",
+      "detail": "{\"width\": 1920, \"height\": 1080, \"frames\": \"17\", \"fps\": \"6/1\", \"duration_seconds\": 2.833333, \"decode\": \"PASS\"}"
+    },
+    {
+      "test": "Hours are configured every day 10:30–23:00",
+      "status": "PASS"
+    },
+    {
+      "test": "Visitor location is centered before store geocoding completes",
+      "status": "PASS"
+    },
+    {
+      "test": "Route errors do not fabricate full delivery ETA",
+      "status": "PASS"
+    },
+    {
+      "test": "Fire starts at hero sequence end and responds to scroll",
+      "status": "PASS"
+    },
+    {
+      "test": "Fire MP3 playback is click-triggered at configured low volume",
+      "status": "PASS"
+    },
+    {
+      "test": "Oversized SMASH watermark disabled",
+      "status": "PASS"
+    },
+    {
+      "test": "16:9 export is also offered as a verified standalone file",
+      "status": "PASS"
+    },
+    {
+      "test": "HTTP smoke test: source and key assets return 200",
+      "status": "PASS",
+      "detail": "[{\"path\": \"index.html\", \"status\": 200, \"bytes\": \"24502\"}, {\"path\": \"style.css\", \"status\": 200, \"bytes\": \"62142\"}, {\"path\": \"script.js\", \"status\": 200, \"bytes\": \"67188\"}, {\"path\": \"EDITE-AQUI.js\", \"status\": 200, \"bytes\": \"13826\"}, {\"path\": \"assets/hero-frames/frame-001.webp\", \"status\": 200, \"bytes\": \"158820\"}, {\"path\": \"assets/hero-frames/frame-070.webp\", \"status\": 200, \"bytes\": \"121144\"}, {\"path\": \"assets/hero-frames/frame-144.webp\", \"status\": 200, \"bytes\": \"95848\"}, {\"path\": \"assets/fire-frames/fire-17.webp\", \"status\": 200, \"bytes\": \"31928\"}, {\"path\": \"assets/products/smash-pcq.webp\", \"status\": 200, \"bytes\": \"265360\"}, {\"path\": \"assets/audio/dr-smash-fire-ambience.mp3\", \"status\": 200, \"bytes\": \"2049792\"}, {\"path\": \"assets/video/Dr-Smash-Hamburger-Hero-16x9.mp4\", \"status\": 200, \"bytes\": \"3626735\"}]"
+    }
+  ],
+  "blocked_or_manual": [
+    {
+      "item": "Browser screenshot / visual comparison on desktop and mobile",
+      "status": "BLOCKED",
+      "reason": "Playwright navigation to the local site returned net::ERR_BLOCKED_BY_ADMINISTRATOR. No screenshot of the page was fabricated."
+    },
+    {
+      "item": "Real user geolocation permission, remote OSM/Nominatim/OSRM calls",
+      "status": "MANUAL",
+      "reason": "Requires a normal browser session and external services; static fallback logic and HTTP local file delivery were checked, but the real interactive flow could not be exercised in this environment."
+    },
+    {
+      "item": "Full 3D mesh and matching 3D camera move",
+      "status": "NOT_AVAILABLE_FROM_SOURCE",
+      "reason": "The supplied source contains only rendered frames. V4 uses a restrained 2.5D frame parallax/scale/tilt approximation; true mesh-based 3D needs model/scene data."
+    }
+  ],
+  "failures": [],
+  "metrics": {
+    "passed_checks": 31,
+    "failed_checks": 0,
+    "html_tags": 328,
+    "html_ids": 57,
+    "unique_data_config_keys": 54,
+    "configured_products": 10,
+    "unique_product_image_hashes": 10,
+    "hero_frames": 144,
+    "fire_frames": 17,
+    "audio_duration_seconds": 64.056,
+    "videos": {
+      "assets/video/Dr-Smash-Hamburger-Hero-16x9.mp4": {
+        "width": 1920,
+        "height": 1080,
+        "frames": "144",
+        "fps": "30/1",
+        "duration_seconds": 4.8,
+        "decode": "PASS"
+      },
+      "assets/video/Dr-Smash-Hamburger-Hero-Vertical.mp4": {
+        "width": 1080,
+        "height": 1920,
+        "frames": "144",
+        "fps": "30/1",
+        "duration_seconds": 4.8,
+        "decode": "PASS"
+      },
+      "assets/video/Dr-Smash-Fire-Loop.mp4": {
+        "width": 1920,
+        "height": 1080,
+        "frames": "17",
+        "fps": "6/1",
+        "duration_seconds": 2.833333,
+        "decode": "PASS"
+      }
+    },
+    "http_paths": 11
+  }
+}

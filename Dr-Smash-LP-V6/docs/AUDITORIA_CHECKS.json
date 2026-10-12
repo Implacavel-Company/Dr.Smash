@@ -1,0 +1,234 @@
+{
+  "project": "/mnt/data/Dr-Smash-LP-V3",
+  "audit_timestamp_local": "2026-10-11 (Brasília), resume audit",
+  "summary": {
+    "passed": 39,
+    "failed": 0,
+    "checks": 39,
+    "blocked_or_not_run": 5
+  },
+  "checks": [
+    {
+      "check": "zip_crc_Dr-Smash-LP-V2.zip",
+      "status": "PASS",
+      "detail": "entries=35; corrupt_entry=None"
+    },
+    {
+      "check": "zip_crc_Dr-Smash-Hamburger-Frames-8K.zip",
+      "status": "PASS",
+      "detail": "entries=144; corrupt_entry=None"
+    },
+    {
+      "check": "zip_crc_Dr-Smash-Fire-Frames-8K.zip",
+      "status": "PASS",
+      "detail": "entries=17; corrupt_entry=None"
+    },
+    {
+      "check": "HTML_doctype",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "single_H1",
+      "status": "PASS",
+      "detail": "count=1"
+    },
+    {
+      "check": "duplicate_IDs",
+      "status": "PASS",
+      "detail": "duplicates=[]"
+    },
+    {
+      "check": "hero_scroll_stage_and_canvas",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "fire_canvas_markup",
+      "status": "PASS",
+      "detail": "dynamic drawing canvas is #ember-canvas"
+    },
+    {
+      "check": "manual_address_collapsed",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "menu_search_control",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "social_icons_4",
+      "status": "PASS",
+      "detail": "count=4"
+    },
+    {
+      "check": "fire_start_wiring",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "HTML_local_refs_exist",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "config_local_asset_paths",
+      "status": "PASS",
+      "detail": "found=10; missing=[]"
+    },
+    {
+      "check": "store_hours_every_day",
+      "status": "PASS",
+      "detail": "hours: {\n    confirmed: true,\n    timeZone: \"America/Sao_Paulo\",\n    // Horários informados no print da loja: todos os dias, 10h30 às 23h.\n    weekly: [\n      { open: \"10:30\", close: \"23:00\" },\n      { open: \"10:30\", close: \"23:00\" },\n      { open: \"10:30\", close: \"23:00\" },\n      { open: \"10:30\", close: \"23:00\" },\n      { open: \"10:30\", close: \"23:00\" },\n      { open: \"10:30\", close: \"23:00\" },\n      { open: \"10:30\", close: \"23:00\" }\n    ],\n    exceptions: {}\n"
+    },
+    {
+      "check": "route_is_explicitly_demo_limited",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "prep_minutes_not_invented",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "uploaded_audio_path_and_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "script.js_syntax",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EDITE-AQUI.js_syntax",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "CSS_parse",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "144_WEBP_hero_frames",
+      "status": "PASS",
+      "detail": "count=144 sequential=True invalid=[]"
+    },
+    {
+      "check": "17_WEBP_fire_frames",
+      "status": "PASS",
+      "detail": "count=17 invalid=[]"
+    },
+    {
+      "check": "Dr-Smash-Hamburger-Frames-8K_images",
+      "status": "PASS",
+      "detail": "count=144 expected=144, dims=(4320, 7680), invalid=[]"
+    },
+    {
+      "check": "Dr-Smash-Fire-Frames-8K_images",
+      "status": "PASS",
+      "detail": "count=17 expected=17, dims=(7680, 4320), invalid=[]"
+    },
+    {
+      "check": "video_metadata_Dr-Smash-Hamburger-Hero-Vertical.mp4",
+      "status": "PASS",
+      "detail": "video={'width': 1080, 'height': 1920, 'r_frame_rate': '30/1', 'nb_frames': '144'}; duration=4.800000"
+    },
+    {
+      "check": "video_full_decode_Dr-Smash-Hamburger-Hero-Vertical.mp4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "video_metadata_Dr-Smash-Hamburger-Hero-16x9.mp4",
+      "status": "PASS",
+      "detail": "video={'width': 1920, 'height': 1080, 'r_frame_rate': '30/1', 'nb_frames': '144'}; duration=4.800000"
+    },
+    {
+      "check": "video_full_decode_Dr-Smash-Hamburger-Hero-16x9.mp4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "video_metadata_Dr-Smash-Fire-Loop.mp4",
+      "status": "PASS",
+      "detail": "video={'width': 1920, 'height': 1080, 'r_frame_rate': '6/1', 'nb_frames': '17'}; duration=2.833333"
+    },
+    {
+      "check": "video_full_decode_Dr-Smash-Fire-Loop.mp4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "MP3_identical_to_upload",
+      "status": "PASS",
+      "detail": "sha256=67fd72558fd140f43ed505cbb71a24601f612ac77cff5b2bffd0df9b7cef2752"
+    },
+    {
+      "check": "MP3_probe_duration",
+      "status": "PASS",
+      "detail": "{'duration': '64.056000', 'size': '2049792'}"
+    },
+    {
+      "check": "local_server_helper_exists",
+      "status": "PASS",
+      "detail": "size=492"
+    },
+    {
+      "check": "README_and_user_config_docs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "data_config_keys_resolve",
+      "status": "PASS",
+      "detail": "57 data-config references inspected against window.DR_SMASH_CONFIG; no missing keys."
+    },
+    {
+      "check": "data_link_keys_resolve",
+      "status": "PASS",
+      "detail": "11 data-link references inspected against cfg.urls; no missing URL keys."
+    },
+    {
+      "check": "product_images_exist",
+      "status": "PASS",
+      "detail": "10 configured products; all referenced local images exist."
+    },
+    {
+      "check": "http_smoke_test",
+      "status": "PASS",
+      "detail": "HTTP 200 for index, CSS, JS, EDITE-AQUI.js, frame 001/070/144, fire frame 17, uploaded MP3 and 16:9 MP4."
+    }
+  ],
+  "non_automatable_checks": [
+    {
+      "check": "browser_visual_render",
+      "status": "BLOCKED",
+      "detail": "Chromium/Playwright navigation to http://127.0.0.1:8765/index.html returned net::ERR_BLOCKED_BY_ADMINISTRATOR. No full-page screenshot was produced; visual QA remains pending in a real user browser."
+    },
+    {
+      "check": "geolocation_live",
+      "status": "NOT_RUN",
+      "detail": "Requires browser permission and interaction; static code and HTTP assets only were validated."
+    },
+    {
+      "check": "external_map_and_route_services",
+      "status": "NOT_RUN",
+      "detail": "Interactive calls to Leaflet/OSM/Nominatim/OSRM were not validated in browser; external services have availability and policy limits."
+    },
+    {
+      "check": "audio_playback_auditory",
+      "status": "NOT_RUN",
+      "detail": "MP3 integrity/duration passed, but audible playback was not tested in browser."
+    },
+    {
+      "check": "full_page_png",
+      "status": "NOT_PRODUCED",
+      "detail": "Not fabricating an LP screenshot without an actual browser render."
+    }
+  ]
+}
